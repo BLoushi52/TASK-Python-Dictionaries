@@ -11,7 +11,7 @@ person = {
 def change_age(person, number):
     person["age"] = number
 
-    return person["age"]
+    return person
 
 
 print(change_age(person, 21))
@@ -25,7 +25,7 @@ def add_hobby(person, hobby):
 
 
 
-    return person["hobbies"]
+    return person
 
 
 print(add_hobby(person, "Table Tennis"))
